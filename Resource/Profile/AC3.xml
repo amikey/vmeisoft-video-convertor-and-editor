@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{BD50DE51-66FE-49A7-B577-3E65613A4133}</ID>
+  <Name>AC-3</Name>
+  <Description>
+    <![CDATA[
+Digital Audio format,support multi-channels and stereo sound.
+]]>
+  </Description>
+  <Format>
+    <Format>ac3</Format>
+    <ExtName>ac3</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[AC3]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>ATSC A/52A (AC-3)</Name>
+          <Codec>ac3</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{13D82F4E-C6C5-45CA-BF2F-47B267AFED18}</ID>
+  <Name>RealAudio</Name>
+  <Description>
+    <![CDATA[
+RealAudio is a proprietary audio format developed by RealNetworks and first released in April 1995. It uses a variety of audio codecs, ranging from low-bitrate formats that can be used over dialup modems, to high-fidelity formats for music. It can also be used as a streaming audio format, that is played at the same time as it is downloaded. In the past, many internet radio stations used RealAudio to stream their programming over the internet in real time. In recent years, however, the format has become less common and has given way to more popular audio formats. RealAudio was heavily used by the BBC websites until 2009, though was it discontinued due to its declining use. BBC World Service, the last of the BBC websites to use RealAudio, discontinued its usage in March 2011.
+]]>
+  </Description>
+  <Format>
+    <Format>rm</Format>
+    <ExtName>ra</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[RealAudio]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>ATSC A/52A (AC-3)</Name>
+          <Codec>ac3</Codec>
+        </Item>
+        <Item>
+          <Name>RealVideo 1.0</Name>
+          <Codec>rv10</Codec>
+        </Item>
+        <Item>
+          <Name>RealVideo 2.0</Name>
+          <Codec>rv20</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

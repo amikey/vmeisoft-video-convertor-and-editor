@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{990ABF91-530E-4494-943A-4209488F35BA}</ID>
+  <Name>Kindle Fire</Name>
+  <Description>
+    <![CDATA[
+Extension of MPEG-4 H.264 video format, with Kindle Fire
+]]>
+  </Description>
+  <Format>
+    <Format>mp4</Format>
+    <ExtName>mp4</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[Kindle Fire]]></Description>
+    <Video>
+      <FixedSize>1</FixedSize>
+      <Aspect>0</Aspect>
+      <Codec>
+        <Item>
+          <Name>H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</Name>
+          <Codec>libx264</Codec>
+        </Item>
+        <Item>
+          <Name>MPEG-4 part 2</Name>
+          <Codec>mpeg4</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <Resolution>
+        <Item>
+          <Width>1024</Width>
+          <Height>600</Height>
+        </Item>
+        <Default>0</Default>
+      </Resolution>
+      <FrameRate>
+        <Item>
+          <Num>1</Num>
+          <Den>30</Den>
+        </Item>
+        <Default>0</Default>
+      </FrameRate>
+      <BitRate>
+        <Item>3000000</Item>
+        <Default>0</Default>
+      </BitRate>
+    </Video>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Advanced Audio Coding (AAC)</Name>
+          <Codec>libfaac</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0E583274-10BB-49FC-85BF-6436E4C8CEB0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VideoConverter</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VIDEOCONVERTER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\MinGW32\msys\1.0\home\tqsun\ffmpeg;$(ProjectDir)\ffmpeg\include;$(SolutionDir)\Include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>VideoConverter.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VIDEOCONVERTER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\MinGW32\msys\1.0\home\tqsun\ffmpeg;$(ProjectDir)\ffmpeg\include;$(SolutionDir)\Include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>VideoConverter.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VIDEOCONVERTER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\MinGW32\msys\1.0\home\tqsun\ffmpeg;$(ProjectDir)\ffmpeg\include;$(SolutionDir)\Include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>VideoConverter.def</ModuleDefinitionFile>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VIDEOCONVERTER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\MinGW32\msys\1.0\home\tqsun\ffmpeg;$(ProjectDir)\ffmpeg\include;$(SolutionDir)\Include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>VideoConverter.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioRecorder.h" />
+    <ClInclude Include="AudioRender.h" />
+    <ClInclude Include="AudioSource.h" />
+    <ClInclude Include="AudioUtils.h" />
+    <ClInclude Include="BackgroundFilter.h" />
+    <ClInclude Include="BrightnessContrast.h" />
+    <ClInclude Include="CommonResource.h" />
+    <ClInclude Include="CropFilter.h" />
+    <ClInclude Include="FastStretchBlt.h" />
+    <ClInclude Include="ffmpeg\Decoder\dec.h" />
+    <ClInclude Include="ffmpeg\Decoder\InfoDecoder.h" />
+    <ClInclude Include="ffmpeg\Encoder\Device\CheckOptions.h" />
+    <ClInclude Include="ffmpeg\Encoder\Device\CodecTypes.h" />
+    <ClInclude Include="ffmpeg\Encoder\enc.h" />
+    <ClInclude Include="ffmpeg\Encoder\encoder.h" />
+    <ClInclude Include="ffmpeg\ffmpeg.h" />
+    <ClInclude Include="ffmpeg\ffmpeg.inc.h" />
+    <ClInclude Include="ffmpeg\include\gif_lib.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\include\inttypes.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\include\unistd.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\wmvenc\wmenc.h" />
+    <ClInclude Include="ffmpeg\wmvenc\WMEncoder.h" />
+    <ClInclude Include="ffmpeg\wmvenc\WMUtils.h" />
+    <ClInclude Include="HSBControl.h" />
+    <ClInclude Include="HueSaturationLightness.h" />
+    <ClInclude Include="Initial.h" />
+    <ClInclude Include="MediaMananger.h" />
+    <ClInclude Include="MergeConvert.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RotateFlip.h" />
+    <ClInclude Include="SaveBitmapFile.h" />
+    <ClInclude Include="SaveWaveFile.h" />
+    <ClInclude Include="SeparateConvert.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Subtitle.h" />
+    <ClInclude Include="SubtitleAqt.h" />
+    <ClInclude Include="SubtitleSsa.h" />
+    <ClInclude Include="SubtitleFilter.h" />
+    <ClInclude Include="SubtitleGoogle.h" />
+    <ClInclude Include="SubtitleInt.h" />
+    <ClInclude Include="SubtitleJacosub.h" />
+    <ClInclude Include="SubtitleMicroDVD.h" />
+    <ClInclude Include="SubtitleMpl2.h" />
+    <ClInclude Include="SubtitleMpsub.h" />
+    <ClInclude Include="SubtitlePjs.h" />
+    <ClInclude Include="SubtitleReader.h" />
+    <ClInclude Include="SubtitleRealText.h" />
+    <ClInclude Include="SubtitleSami.h" />
+    <ClInclude Include="SubtitleSubrip.h" />
+    <ClInclude Include="SubtitleSubviewer.h" />
+    <ClInclude Include="SubtitleUtils.h" />
+    <ClInclude Include="SubtitleVplayer.h" />
+    <ClInclude Include="SubtitleWebvtt.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="VideoConverter.h" />
+    <ClInclude Include="VideoConverterInt.h" />
+    <ClInclude Include="VideoEncoder.h" />
+    <ClInclude Include="VideoFilter.h" />
+    <ClInclude Include="VideoFilters.h" />
+    <ClInclude Include="VideoPlayer.h" />
+    <ClInclude Include="VideoRender.h" />
+    <ClInclude Include="VideoSource.h" />
+    <ClInclude Include="VideoUtils.h" />
+    <ClInclude Include="WatermarkFilter.h" />
+    <ClInclude Include="XDebug.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioRecorder.cpp" />
+    <ClCompile Include="AudioRender.cpp" />
+    <ClCompile Include="AudioSource.cpp" />
+    <ClCompile Include="AudioUtils.cpp" />
+    <ClCompile Include="BackgroundFilter.cpp" />
+    <ClCompile Include="BrightnessContrast.cpp" />
+    <ClCompile Include="CommonResource.cpp" />
+    <ClCompile Include="CropFilter.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FastStretchBlt.cpp" />
+    <ClCompile Include="ffmpeg\Decoder\AudioOut.cpp" />
+    <ClCompile Include="ffmpeg\Decoder\dec.cpp" />
+    <ClCompile Include="ffmpeg\Decoder\InfoDecoder.cpp" />
+    <ClCompile Include="ffmpeg\Decoder\VideoOut.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioAc3.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioAmrNb.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioFlac.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioRaw.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioVorbis.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\CheckOptions.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatAmv.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatAvi.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatRa.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatWmv.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoDv.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoMpeg4.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoRaw.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoTheora.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoVpx.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoX264.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\enc.cpp" />
+    <ClCompile Include="ffmpeg\Encoder\encoder.cpp" />
+    <ClCompile Include="ffmpeg\ffmpeg.cpp" />
+    <ClCompile Include="ffmpeg\gif\libgif.cpp" />
+    <ClCompile Include="ffmpeg\mingw.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\wmvenc\wmenc.cpp" />
+    <ClCompile Include="ffmpeg\wmvenc\WMEncoder.cpp" />
+    <ClCompile Include="ffmpeg\wmvenc\WMUtils.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="HSBControl.cpp" />
+    <ClCompile Include="HueSaturationLightness.cpp" />
+    <ClCompile Include="Initial.cpp" />
+    <ClCompile Include="MediaMananger.cpp" />
+    <ClCompile Include="MergeConvert.cpp" />
+    <ClCompile Include="RotateFlip.cpp" />
+    <ClCompile Include="SaveBitmapFile.cpp" />
+    <ClCompile Include="SaveWaveFile.cpp" />
+    <ClCompile Include="SeparateConvert.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Subtitle.cpp" />
+    <ClCompile Include="SubtitleAqt.cpp" />
+    <ClCompile Include="SubtitleSsa.cpp" />
+    <ClCompile Include="SubtitleFilter.cpp" />
+    <ClCompile Include="SubtitleGoogle.cpp" />
+    <ClCompile Include="SubtitleInt.cpp" />
+    <ClCompile Include="SubtitleJacosub.cpp" />
+    <ClCompile Include="SubtitleMicroDVD.cpp" />
+    <ClCompile Include="SubtitleMpl2.cpp" />
+    <ClCompile Include="SubtitleMpsub.cpp" />
+    <ClCompile Include="SubtitlePjs.cpp" />
+    <ClCompile Include="SubtitleReader.cpp" />
+    <ClCompile Include="SubtitleRealText.cpp" />
+    <ClCompile Include="SubtitleSami.cpp" />
+    <ClCompile Include="SubtitleSubrip.cpp" />
+    <ClCompile Include="SubtitleSubviewer.cpp" />
+    <ClCompile Include="SubtitleUtils.cpp" />
+    <ClCompile Include="SubtitleVplayer.cpp" />
+    <ClCompile Include="SubtitleWebvtt.cpp" />
+    <ClCompile Include="VideoConverter.cpp" />
+    <ClCompile Include="VideoConverterInt.cpp" />
+    <ClCompile Include="VideoEncoder.cpp" />
+    <ClCompile Include="VideoFilter.cpp" />
+    <ClCompile Include="VideoFilters.cpp" />
+    <ClCompile Include="VideoPlayer.cpp" />
+    <ClCompile Include="VideoRender.cpp" />
+    <ClCompile Include="VideoSource.cpp" />
+    <ClCompile Include="VideoUtils.cpp" />
+    <ClCompile Include="WatermarkFilter.cpp" />
+    <ClCompile Include="XDebug.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\Cursor\ColorPick.cur" />
+    <None Include="Resource\Cursor\Crop.cur" />
+    <None Include="Resource\Cursor\Select.cur" />
+    <None Include="VideoConverter.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VideoConverter.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{F650E194-3F0A-4301-BF46-14380B6C4286}</ID>
+  <Name>HD MPEG-2 Movie NTSC</Name>
+  <Description>
+    <![CDATA[
+HD MPEG2 With *.mpg Extend Name Video File.
+]]>
+  </Description>
+  <Format>
+    <Format>vob</Format>
+    <ExtName>mpg</ExtName>
+  </Format>
+  <Target>
+    <Name>HD</Name>
+    <Description><![CDATA[HD Video]]></Description>
+    <Video>
+      <FixedSize>1</FixedSize>
+      <Aspect>1</Aspect>
+      <Codec>
+        <Item>
+          <Name>MPEG-2 Video</Name>
+          <Codec>mpeg2video</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <Resolution>
+        <Item>
+          <Width>1280</Width>
+          <Height>720</Height>
+        </Item>
+        <Item>
+          <Width>1440</Width>
+          <Height>1080</Height>
+        </Item>
+        <Item>
+          <Width>1920</Width>
+          <Height>1088</Height>
+        </Item>
+        <Default>0</Default>
+      </Resolution>
+      <FrameRate>
+        <Item>
+          <Num>1001</Num>
+          <Den>24000</Den>
+        </Item>
+        <Item>
+          <Num>1</Num>
+          <Den>24</Den>
+        </Item>
+        <Item>
+          <Num>1</Num>
+          <Den>25</Den>
+        </Item>
+        <Item>
+          <Num>1001</Num>
+          <Den>30000</Den>
+        </Item>
+        <Item>
+          <Num>1</Num>
+          <Den>30</Den>
+        </Item>
+        <Default>3</Default>
+      </FrameRate>
+      <BitRate>
+        <Item>4000000</Item>
+        <Item>6000000</Item>
+        <Item>8000000</Item>
+        <Item>10000000</Item>
+        <Item>12000000</Item>
+        <Default>2</Default>
+      </BitRate>
+    </Video>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>MP2 (MPEG audio layer 2)</Name>
+          <Codec>mp2</Codec>
+        </Item>
+        <Item>
+          <Name>ATSC A/52A (AC-3)</Name>
+          <Codec>ac3</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>0</Default>
+      </SampleRate>
+      <Channel>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>256000</Item>
+        <Item>384000</Item>
+        <Default>5</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

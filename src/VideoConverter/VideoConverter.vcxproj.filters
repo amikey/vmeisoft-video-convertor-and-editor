@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ffmpeg">
+      <UniqueIdentifier>{8ca22525-348e-4ae2-b926-7400c85a2dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\Decoder">
+      <UniqueIdentifier>{f975757b-99e4-4b21-9e8b-f036089a1adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\Encoder">
+      <UniqueIdentifier>{67a0fa96-0d70-4d56-9f5e-c194ee44ebba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\Encoder\Device">
+      <UniqueIdentifier>{b54bb5d7-a3c7-4d61-af6d-a720e483e069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\include">
+      <UniqueIdentifier>{b5b9c054-56da-4dc0-b232-08fd8a19f668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f7953f60-550d-4c71-b99e-6a861cf122fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\gif">
+      <UniqueIdentifier>{281c30c4-cc20-46a9-af2b-7d36bc71418c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\wmvenc">
+      <UniqueIdentifier>{3a0d3960-4270-4df6-b5c9-de525c3d6a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video Filters">
+      <UniqueIdentifier>{20093899-845d-4342-9ef9-ed4049b867a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\Cursor">
+      <UniqueIdentifier>{34faf939-571c-4990-8a2a-74bf67c384fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Subtitle">
+      <UniqueIdentifier>{672c0153-5c5e-4e0b-90c5-82e0b07cd8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subtitle\Readers">
+      <UniqueIdentifier>{7ca3483c-d50a-4ddc-8fdc-0c76d3f39d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{c94533da-caa1-42da-a64c-1db1512a692e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{61a92e4d-8ee5-4528-9b74-98f61486c68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video">
+      <UniqueIdentifier>{9f5486e2-e7b6-4687-b43e-822fc5864012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoConverterInt.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\ffmpeg.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\ffmpeg.inc.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\Decoder\dec.h">
+      <Filter>ffmpeg\Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\Decoder\InfoDecoder.h">
+      <Filter>ffmpeg\Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\Encoder\enc.h">
+      <Filter>ffmpeg\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\Encoder\encoder.h">
+      <Filter>ffmpeg\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\Encoder\Device\CheckOptions.h">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\Encoder\Device\CodecTypes.h">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoRender.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\include\inttypes.h">
+      <Filter>ffmpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\include\unistd.h">
+      <Filter>ffmpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="XDebug.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveBitmapFile.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveWaveFile.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\include\gif_lib.h">
+      <Filter>ffmpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\wmvenc\wmenc.h">
+      <Filter>ffmpeg\wmvenc</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\wmvenc\WMEncoder.h">
+      <Filter>ffmpeg\wmvenc</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\wmvenc\WMUtils.h">
+      <Filter>ffmpeg\wmvenc</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFilter.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BrightnessContrast.h">
+      <Filter>Video Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="HueSaturationLightness.h">
+      <Filter>Video Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFilters.h">
+      <Filter>Video Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="CropFilter.h">
+      <Filter>Video Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoConverter.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundFilter.h">
+      <Filter>Video Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Initial.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WatermarkFilter.h">
+      <Filter>Video Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="FastStretchBlt.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SeparateConvert.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeConvert.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateFlip.h">
+      <Filter>Video Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaMananger.h">
+      <Filter>Sources\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtitle.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleInt.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleFilter.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleReader.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleSubviewer.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleAqt.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleGoogle.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleJacosub.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleMicroDVD.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleMpl2.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleMpsub.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitlePjs.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleSami.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleSubrip.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleVplayer.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleSsa.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleRealText.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleWebvtt.h">
+      <Filter>Subtitle\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="HSBControl.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonResource.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioRender.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioUtils.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSource.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioRecorder.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoEncoder.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleUtils.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VideoConverter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\ffmpeg.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Decoder\AudioOut.cpp">
+      <Filter>ffmpeg\Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Decoder\dec.cpp">
+      <Filter>ffmpeg\Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Decoder\InfoDecoder.cpp">
+      <Filter>ffmpeg\Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Decoder\VideoOut.cpp">
+      <Filter>ffmpeg\Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\enc.cpp">
+      <Filter>ffmpeg\Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\encoder.cpp">
+      <Filter>ffmpeg\Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioAc3.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioAmrNb.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioFlac.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioRaw.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\AudioVorbis.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\CheckOptions.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatAmv.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatAvi.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatRa.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\FormatWmv.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoDv.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoMpeg4.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoRaw.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoTheora.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoVpx.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Encoder\Device\VideoX264.cpp">
+      <Filter>ffmpeg\Encoder\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoRender.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="XDebug.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveBitmapFile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveWaveFile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\gif\libgif.cpp">
+      <Filter>ffmpeg\gif</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\wmvenc\wmenc.cpp">
+      <Filter>ffmpeg\wmvenc</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\wmvenc\WMEncoder.cpp">
+      <Filter>ffmpeg\wmvenc</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\wmvenc\WMUtils.cpp">
+      <Filter>ffmpeg\wmvenc</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightnessContrast.cpp">
+      <Filter>Video Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="HueSaturationLightness.cpp">
+      <Filter>Video Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateFlip.cpp">
+      <Filter>Video Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoFilter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoFilters.cpp">
+      <Filter>Video Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="CropFilter.cpp">
+      <Filter>Video Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoConverterInt.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Initial.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WatermarkFilter.cpp">
+      <Filter>Video Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundFilter.cpp">
+      <Filter>Video Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="FastStretchBlt.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SeparateConvert.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeConvert.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaMananger.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtitle.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleInt.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleFilter.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleReader.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleSubviewer.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleAqt.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleGoogle.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleJacosub.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleMicroDVD.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleMpl2.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleMpsub.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitlePjs.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleSami.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleSubrip.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleVplayer.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleSsa.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleRealText.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleWebvtt.cpp">
+      <Filter>Subtitle\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="HSBControl.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonResource.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRender.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioUtils.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSource.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRecorder.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoEncoder.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleUtils.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\mingw.c">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VideoConverter.def">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resource\Cursor\Crop.cur">
+      <Filter>Resources\Cursor</Filter>
+    </None>
+    <None Include="Resource\Cursor\Select.cur">
+      <Filter>Resources\Cursor</Filter>
+    </None>
+    <None Include="Resource\Cursor\ColorPick.cur">
+      <Filter>Resources\Cursor</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VideoConverter.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

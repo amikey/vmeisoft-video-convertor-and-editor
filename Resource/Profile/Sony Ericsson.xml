@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{B57E428E-CF3F-47B4-A7E4-10F94DF70FD1}</ID>
+  <Name>Sony Ericsson</Name>
+  <Description>
+    <![CDATA[
+H.264 optimized for Sony Ericsson Xperia Arc
+]]>
+  </Description>
+  <Format>
+    <Format>mp4</Format>
+    <ExtName>mp4</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[Xperia Arc]]></Description>
+    <Video>
+      <FixedSize>1</FixedSize>
+      <Aspect>0</Aspect>
+      <Codec>
+        <Item>
+          <Name>MPEG-4</Name>
+          <Codec>mpeg4</Codec>
+        </Item>
+        <Item>
+          <Name>H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</Name>
+          <Codec>libx264</Codec>
+        </Item>
+        <Default>1</Default>
+      </Codec>
+      <Resolution>
+        <Item>
+          <Width>1280</Width>
+          <Height>720</Height>
+        </Item>
+        <Default>0</Default>
+      </Resolution>
+      <FrameRate>
+        <Item>
+          <Num>1</Num>
+          <Den>30</Den>
+        </Item>
+        <Default>0</Default>
+      </FrameRate>
+      <BitRate>
+        <Item>900000</Item>
+        <Item>1500000</Item>
+        <Item>2000000</Item>
+        <Item>2500000</Item>
+        <Default>1</Default>
+      </BitRate>
+    </Video>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Advanced Audio Coding (AAC)</Name>
+          <Codec>libfaac</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[Xperia Min]]></Description>
+    <Video>
+      <FixedSize>1</FixedSize>
+      <Aspect>0</Aspect>
+      <Codec>
+        <Item>
+          <Name>MPEG-4</Name>
+          <Codec>mpeg4</Codec>
+        </Item>
+        <Item>
+          <Name>H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</Name>
+          <Codec>libx264</Codec>
+        </Item>
+        <Default>1</Default>
+      </Codec>
+      <Resolution>
+        <Item>
+          <Width>1280</Width>
+          <Height>720</Height>
+        </Item>
+        <Default>0</Default>
+      </Resolution>
+      <FrameRate>
+        <Item>
+          <Num>1</Num>
+          <Den>30</Den>
+        </Item>
+        <Default>0</Default>
+      </FrameRate>
+      <BitRate>
+        <Item>900000</Item>
+        <Item>1500000</Item>
+        <Item>2000000</Item>
+        <Item>2500000</Item>
+        <Default>1</Default>
+      </BitRate>
+    </Video>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Advanced Audio Coding (AAC)</Name>
+          <Codec>libfaac</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+
+</Profile>

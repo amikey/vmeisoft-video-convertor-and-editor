@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{C8F52324-7111-4232-A1E2-BA8B272C82A9}</ID>
+  <Name>FLAC</Name>
+  <Description>
+    <![CDATA[
+FLAC Audio lossness format,with half size of WAV file.
+]]>
+  </Description>
+  <Format>
+    <Format>flac</Format>
+    <ExtName>flac</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[FLAC]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>FLAC (Free Lossless Audio Codec)</Name>
+          <Codec>flac</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{A77FFDDC-CB86-4145-B73A-9D9507B3A5D4}</ID>
+  <Name>OGG</Name>
+  <Description>
+    <![CDATA[
+Ogg Vorbis Audio format,support multi-channels with fine sound quality.
+]]>
+  </Description>
+  <Format>
+    <Format>ogg</Format>
+    <ExtName>ogg</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[OGG]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>FLAC (Free Lossless Audio Codec)</Name>
+          <Codec>flac</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

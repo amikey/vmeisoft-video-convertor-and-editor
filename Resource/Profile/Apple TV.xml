@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{B167F325-6767-4FD9-9988-39C02FF49733}</ID>
+  <Name>Apple TV</Name>
+  <Description>
+    <![CDATA[
+MPEG-4 video optimized for Apple TV. (512x384)
+]]>
+  </Description>
+  <Format>
+    <Format>mp4</Format>
+    <ExtName>mp4</ExtName>
+  </Format>
+  <Target>
+    <Name>Apple TV</Name>
+    <Description><![CDATA[Apple TV]]></Description>
+    <Video>
+      <FixedSize>1</FixedSize>
+      <Aspect>0</Aspect>
+      <Codec>
+        <Item>
+          <Name>MPEG-4</Name>
+          <Codec>mpeg4</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <Resolution>
+        <Item>
+          <Width>640</Width>
+          <Height>480</Height>
+        </Item>
+        <Item>
+          <Width>720</Width>
+          <Height>480</Height>
+        </Item>
+        <Item>
+          <Width>1280</Width>
+          <Height>720</Height>
+        </Item>
+        <Item>
+          <Width>1920</Width>
+          <Height>1080</Height>
+        </Item>
+        <Default>1</Default>
+      </Resolution>
+      <FrameRate>
+        <Item>
+          <Num>1001</Num>
+          <Den>24000</Den>
+        </Item>
+        <Item>
+          <Num>1</Num>
+          <Den>24</Den>
+        </Item>
+        <Item>
+          <Num>1</Num>
+          <Den>30</Den>
+        </Item>
+        <Default>2</Default>
+      </FrameRate>
+      <BitRate>
+        <Item>1000000</Item>
+        <Item>1200000</Item>
+        <Item>1500000</Item>
+        <Item>2000000</Item>
+        <Item>3000000</Item>
+        <Item>4000000</Item>
+        <Item>5000000</Item>
+        <Default>4</Default>
+      </BitRate>
+    </Video>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Advanced Audio Coding (AAC)</Name>
+          <Codec>libfaac</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>192000</Item>
+	<Item>224000</Item>
+	<Item>256000</Item>
+        <Item>384000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{7350076E-FCD8-4DD0-83C3-145D135F58A2}</ID>
+  <Name>HD WMV Video</Name>
+  <Description>
+    <![CDATA[
+HD Windows Media With *.wmv Extend Name Video File.
+]]>
+  </Description>
+  <Format>
+    <Format>wmv</Format>
+    <ExtName>wmv</ExtName>
+  </Format>
+  <Target>
+    <Name>HD</Name>
+    <Description><![CDATA[HD Video]]></Description>
+    <Video>
+      <FixedSize>1</FixedSize>
+      <Aspect>1</Aspect>
+      <Codec>
+        <Item>
+          <Name>Windows Media Video 9</Name>
+          <Codec>wmv9</Codec>
+        </Item>
+        <Item>
+          <Name>Windows Media Video 9 Advanced Profile</Name>
+          <Codec>wvc1</Codec>
+        </Item>
+        <Default>1</Default>
+      </Codec>
+      <Resolution>
+        <Item>
+          <Width>1280</Width>
+          <Height>720</Height>
+        </Item>
+        <Item>
+          <Width>1440</Width>
+          <Height>1080</Height>
+        </Item>
+        <Item>
+          <Width>1920</Width>
+          <Height>1080</Height>
+        </Item>
+        <Default>0</Default>
+      </Resolution>
+      <FrameRate>
+        <Item>
+          <Num>1</Num>
+          <Den>24</Den>
+        </Item>
+        <Item>
+          <Num>1</Num>
+          <Den>25</Den>
+        </Item>
+        <Item>
+          <Num>1</Num>
+          <Den>30</Den>
+        </Item>
+        <Default>2</Default>
+      </FrameRate>
+      <BitRate>
+        <Item>4000000</Item>
+        <Item>6000000</Item>
+        <Item>8000000</Item>
+        <Item>10000000</Item>
+        <Item>12000000</Item>
+        <Default>2</Default>
+      </BitRate>
+    </Video>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Windows Media Audio 9.2</Name>
+          <Codec>wmav2</Codec>
+        </Item>
+        <Item>
+          <Name>Windows Media Audio 10 Professional</Name>
+          <Codec>wmapro</Codec>
+        </Item>
+        <Item>
+          <Name>Windows Media Audio 9.2 Lossless</Name>
+          <Codec>wmalossless</Codec>
+        </Item>
+        <Default>1</Default>
+      </Codec>
+      <SampleRate>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>0</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>2</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>192000</Item>
+	<Item>224000</Item>
+	<Item>256000</Item>
+        <Item>384000</Item>
+        <Default>6</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

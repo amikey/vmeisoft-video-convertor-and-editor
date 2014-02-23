@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Groups>
+  <Group0>
+    <!--HD-->
+    <File>HD MP4</File>
+    <File>HD MOV</File>
+    <File>HD WMV</File>
+    <File>HD MPEG-2</File>
+    <File>HD AVI</File>
+  </Group0>
+  <Group1>
+    <!--VIDEO-->
+    <File>MOV</File>
+    <File>MP4</File>
+    <File>WMV</File>
+    <File>Mobile Phone 3GPP</File>
+    <File>Mobile Phone 3GP</File>
+    <File>AVI</File>
+    <File>FLV</File>
+    <File>MPEG-2</File>
+    <File>MPEG-1</File>
+    <File>MKV</File>
+    <File>ISMV</File>
+    <File>RealVideo</File>
+  </Group1>
+  <Group2>
+    <!--DEVICE-->
+    <File>iPad</File>
+    <File>iPhone</File>
+    <File>Blackberry</File>
+    <File>Samsung</File>
+    <File>LG</File>
+    <File>NOKIA</File>
+    <File>HTC</File>
+    <File>3G2</File>
+    <File>3GP</File>
+    <File>Apple TV</File>
+    <File>Creative Zen</File>
+    <File>DV</File>
+    <File>iPod</File>
+    <File>iRiver</File>
+    <File>Kindle</File>
+    <File>Motorola</File>
+    <File>Zune</File>
+    <File>Xbox 360</File>
+    <File>PS3</File>
+    <File>PSP</File>
+    <File>Sansa</File>
+    <File>Sony Ericsson</File>
+    <File>Sony</File>
+    <File>Wii</File>
+  </Group2>
+  <Group3>
+    <!--WEB-->
+    <File>WEBM</File>
+    <File>SWF</File>
+    <File>F4V</File>
+    <File>GIF</File>
+  </Group3>
+  <Group4>
+    <!--APP-->
+    <File>Final Cut Pro</File>
+    <File>Adobe Premiere</File>
+    <File>DVD Maker</File>
+    <File>iTunes</File>
+    <File>Movie Maker</File>
+    <File>Windows Media Player</File>
+  </Group4>
+  <Group5>
+    <!--AUDIO-->
+    <File>MP3</File>
+    <File>M4A</File>
+    <File>AAC</File>
+    <File>OGG</File>
+    <File>WMA</File>
+    <File>WAV</File>
+    <File>AIFF</File>
+    <File>MKA</File>
+    <File>AC3</File>
+    <File>FLAC</File>
+    <File>AU</File>
+    <File>MP2</File>
+    <File>RealAudio</File>
+  </Group5>
+</Groups>

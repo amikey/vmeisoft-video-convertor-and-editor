@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{C60A7FDB-82FB-460C-9405-8638B57BA9FE}</ID>
+  <Name>MP3 (MPEG audio layer 3)</Name>
+  <Description>
+    <![CDATA[
+A popular compression format used for audio files on computers and portable devices,with excellent sound quality and small size.
+]]>
+  </Description>
+  <Format>
+    <Format>mp3</Format>
+    <ExtName>mp3</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[MP3]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>MP3 (MPEG audio layer 3)</Name>
+          <Codec>libmp3lame</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

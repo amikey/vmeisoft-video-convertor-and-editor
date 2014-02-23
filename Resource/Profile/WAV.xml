@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{08A824A7-09E9-4B00-B255-E68A75BDF891}</ID>
+  <Name>WAV</Name>
+  <Description>
+    <![CDATA[
+Microsoft Audio format, with lossless sound quality and large file size.
+]]>
+  </Description>
+  <Format>
+    <Format>wav</Format>
+    <ExtName>wav</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[MP3]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Pulse-code modulation (PCM)</Name>
+          <Codec>pcm_s16le</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{551BBF59-93F7-423C-97D6-37DEF767A6A7}</ID>
+  <Name>WMA</Name>
+  <Description>
+    <![CDATA[
+Windows Media Audio,popular audio format with low bitrate and fine sound quality.
+]]>
+  </Description>
+  <Format>
+    <Format>wma</Format>
+    <ExtName>wma</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[MP3]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Windows Media Audio 9.2</Name>
+          <Codec>wmav2</Codec>
+        </Item>
+        <Item>
+          <Name>Windows Media Audio 10 Professional</Name>
+          <Codec>wmapro</Codec>
+        </Item>
+        <Default>1</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{CC259B98-B497-4FAE-8DC0-EDBCA5771359}</ID>
+  <Name>MP2 (MPEG audio layer 2)</Name>
+  <Description>
+    <![CDATA[
+MPEG-1 Audio Layer II or MPEG-2 Audio Layer II (MP2, sometimes incorrectly called Musicam or MUSICAM)[5] is a lossy audio compression format defined by ISO/IEC 11172-3 alongside MPEG-1 Audio Layer I and MPEG-1 Audio Layer III (MP3).
+]]>
+  </Description>
+  <Format>
+    <Format>mp2</Format>
+    <ExtName>mp2</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[MP2]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>MP2 (MPEG audio layer 2)</Name>
+          <Codec>mp2</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

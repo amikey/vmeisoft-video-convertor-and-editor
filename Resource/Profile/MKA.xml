@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{1C01C178-D66B-4785-BC9F-0D2CE0FBA968}</ID>
+  <Name>Matroska Audio(MKA)</Name>
+  <Description>
+    <![CDATA[
+Audio format,it is used MKV audio format.
+]]>
+  </Description>
+  <Format>
+    <Format>matroska</Format>
+    <ExtName>mka</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[MKA]]></Description>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Vorbis</Name>
+          <Codec>libvorbis</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Item>6</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Item>320000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

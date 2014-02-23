@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <ID>{CC0D254B-6B55-4171-9E15-BD7512DDDF92}</ID>
+  <Name>Wii</Name>
+  <Description>
+    <![CDATA[
+AVI(MJPEG) Video format optimized for Wii
+]]>
+  </Description>
+  <Format>
+    <Format>mp4</Format>
+    <ExtName>mp4</ExtName>
+  </Format>
+  <Target>
+    <Name></Name>
+    <Description><![CDATA[General]]></Description>
+    <Video>
+      <FixedSize>1</FixedSize>
+      <Aspect>0</Aspect>
+      <Codec>
+        <Item>
+          <Name>MPEG-4</Name>
+          <Codec>mpeg4</Codec>
+        </Item>
+        <Item>
+          <Name>H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</Name>
+          <Codec>libx264</Codec>
+        </Item>
+        <Default>1</Default>
+      </Codec>
+      <Resolution>
+        <Item>
+          <Width>640</Width>
+          <Height>480</Height>
+        </Item>
+        <Default>0</Default>
+      </Resolution>
+      <FrameRate>
+        <Item>
+          <Num>1</Num>
+          <Den>30</Den>
+        </Item>
+        <Default>0</Default>
+      </FrameRate>
+      <BitRate>
+        <Item>1000000</Item>
+        <Item>1500000</Item>
+        <Item>2500000</Item>
+        <Item>3000000</Item>
+        <Item>4000000</Item>
+        <Item>6000000</Item>
+        <Default>2</Default>
+      </BitRate>
+    </Video>
+    <Audio>
+      <Codec>
+        <Item>
+          <Name>Advanced Audio Coding (AAC)</Name>
+          <Codec>libfaac</Codec>
+        </Item>
+        <Default>0</Default>
+      </Codec>
+      <SampleRate>
+        <Item>22050</Item>
+        <Item>44100</Item>
+        <Item>48000</Item>
+        <Default>1</Default>
+      </SampleRate>
+      <Channel>
+        <Item>1</Item>
+        <Item>2</Item>
+        <Default>1</Default>
+      </Channel>
+      <BitRate>
+        <Item>64000</Item>
+        <Item>80000</Item>
+        <Item>96000</Item>
+        <Item>128000</Item>
+        <Item>160000</Item>
+        <Default>3</Default>
+      </BitRate>
+    </Audio>
+  </Target>
+</Profile>

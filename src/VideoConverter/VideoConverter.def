@@ -1,0 +1,126 @@
+LIBRARY
+
+EXPORTS
+	WriteErrorLog
+	GetMultipleInatance
+	GetMainWindowHandle
+	SetMainWindowHandle
+
+	vcInitialize
+	vcUninitialize
+
+	VCGlobal_Size
+	CodecOptions_Size
+	MediaInfo_Size
+	VCItem_Size
+
+	vcGetGlobal
+	vcGetCodecOptions
+
+	vcImportMediaInfo
+	vcImportAbort
+	vcImportGetProgress
+
+	vcCreateItem
+	vcDeleteItem
+
+	vcCreateVideoPlayer
+	vcVideoPlayerGrab
+	vcVideoPlayerDestroy
+	vcVideoPlayerResize
+	vcVideoPlayerStartStop
+
+	vcVideoPlayerResume
+	vcVideoPlayerPause
+	vcVideoPlayerSeekTo
+	
+	vcVideoPlayerNextFrame
+	vcVideoPlayerPreTime
+	vcVideoPlayerNextTime
+	vcVideoPlayerCurrentTime
+
+	vcVideoPlayerForceRedraw
+	vcVideoPlayerSetMusic
+	vcVideoPlayerSetVolume
+
+	vcVideoPlayerCrop
+	vcVideoPlayerCropStop
+
+	CalcRotateFlip
+	RotateFlipString
+
+	vcGetVideoEffect
+	vcSetVideoEffect
+	vcGetVideoEffectDefaultValue
+
+	ProfileVideo_Size
+	ProfileAudio_Size
+	ProfileTarget_Size
+	ProfileTag_Size
+	ProfileSettings_Size
+					
+	GetDefaultProfileSetting1		
+	GetDefaultProfileSetting2		
+	GetDefaultProfileSetting3		
+	GetProfofileCount				
+	GetProfile						
+	GetProfileTarget				
+	DrawProfileThumbnail			
+	GetProfileSettings				
+	GetProfofileCountEx				
+	GetProfileEx					
+	GetProfileTargetEx				
+	GetProfileVideoEx				
+	GetProfileAudioEx				
+	IsFixedVideoSizeEx				
+	SetCustomRes					
+
+	MakeMediaInfoString
+	CopyProfileSettings
+	DraweBackgroundSample
+	DrawLogoSample
+	DrawResizeSample
+	GetCpuCoreCount
+
+	vcReadyForConvert
+	vcStartConvert
+	vcAbortConvert
+
+	MergeInfo_Size
+	vcGetMergeInfo
+	vcStartMerge
+	vcAbortMerge
+
+	SubtitleDefault_Size
+	CSubtitleLine_Size
+	CSubtitleItem_Size
+	CSubtitle_Size
+	SubtitleGetDefault
+	SubtitleImport
+	SubtitleGet
+	SubtitleAddItem
+	SubtitleAddLine
+	SubtitleDelete
+	SubtitleDeleteLine
+	SubtitleSort
+	SubtitleCreatePlayer
+	SubtitlePlay
+	SubtitlePlayEx
+	SubtitleRedraw
+	SubtitleSetFocus
+	SubtitleDestroyPlayer
+
+	SubtitleFind
+	SubtitleFindGetName
+	SubtitleFindGetPath
+	SubtitleFindFree
+
+	CreateHSBControl
+	CreateHSBControlEx
+
+	AudioRecorderCreate
+	AudioRecorderGetInfo
+	AudioRecorderPause
+	AudioRecorderResume
+	AudioRecorderDestroy
+	SpeakerMute
