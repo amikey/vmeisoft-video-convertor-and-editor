@@ -1,0 +1,65 @@
+package Components;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vclimg;
+
+contains
+  GraphicsCheckButton in 'GraphicsCheckButton.pas',
+  GraphicsVolume in 'GraphicsVolume.pas',
+  GraphicsGroupRadio in 'GraphicsGroupRadio.pas',
+  GraphicsVolumeBar in 'GraphicsVolumeBar.pas',
+  GraphicsButton in 'GraphicsButton.pas',
+  ListViewEx in 'ListViewEx.pas',
+  GraphicsGPImage in 'GraphicsGPImage.pas',
+  MediaPlayTrackBar in 'MediaPlayTrackBar.pas',
+  GraphicsDownButton in 'GraphicsDownButton.pas',
+  TaskbarList in 'TaskbarList.pas',
+  CommandLinkButton in 'CommandLinkButton.pas',
+  GraphicsUtils in 'GraphicsUtils.pas',
+  ColorToolBar in 'ColorToolBar.pas',
+  ToolBarEx in 'ToolBarEx.pas',
+  GraphicsSpeedButton in 'GraphicsSpeedButton.pas',
+  GraphicsCommandLink in 'GraphicsCommandLink.pas',
+  GraphicsTrackBar in 'GraphicsTrackBar.pas',
+  TimeEdit in 'TimeEdit.pas',
+  WinPaint in 'WinPaint.pas',
+  ImageListView in 'ImageListView.pas',
+  GraphicsSpeedButtonEx in 'GraphicsSpeedButtonEx.pas',
+  FlatButton in 'FlatButton.pas',
+  ShortcutControl in 'ShortcutControl.pas',
+  KeyTestControl in 'KeyTestControl.pas',
+  SysLinkEx in 'SysLinkEx.pas',
+  LinkSpeedButton in 'LinkSpeedButton.pas',
+  TextListView in 'TextListView.pas',
+  TimerPaintBox in 'TimerPaintBox.pas';
+
+end.
